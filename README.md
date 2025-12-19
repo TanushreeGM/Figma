@@ -45,7 +45,23 @@ index.html
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="box"><div class="rectangle"></div></div>
+    <div class="android-medium">
+      <img class="vector" src="img/vector-2.svg" />
+      <img class="img" src="img/vector-1.svg" />
+      <img class="diversity-and" src="img/diversity-and-culture-savethedate2022-VC-OC-jan10-1.png" />
+      <div class="ellipse"></div>
+      <img class="picture" src="img/picture1-1.png" />
+      <p class="text-wrapper">Join in the cultural fest at Saveetha!</p>
+      <div class="rectangle"></div>
+      <img class="rectangle-2" src="img/rectangle-3.svg" />
+      <img class="rectangle-3" src="img/rectangle-4.svg" />
+      <div class="div">LOGIN</div>
+      <div class="text-wrapper-2">REGISTER</div>
+      <div class="text-wrapper-3">designed by Tanushree G</div>
+      <img class="line" src="img/line-1.svg" />
+      <img class="star" src="img/star-8.svg" />
+      <img class="star-2" src="img/star-9.svg" />
+    </div>
   </body>
 </html>
 
@@ -70,17 +86,166 @@ a {
 }
 
 style.css
-.box {
-  width: 540px;
-  height: 874px;
+.android-medium {
+  background-color: #ffffff;
+  width: 100%;
+  min-width: 540px;
+  min-height: 917px;
+  position: relative;
 }
 
-.box .rectangle {
-  position: fixed;
-  top: 0;
+.android-medium .vector {
+  left: 448px;
+  width: 92px;
+  position: absolute;
+  top: 532px;
+  height: 116px;
+}
+
+.android-medium .img {
+  left: 0;
+  width: 121px;
+  position: absolute;
+  top: 532px;
+  height: 116px;
+}
+
+.android-medium .diversity-and {
+  position: absolute;
+  top: 584px;
+  left: 98px;
+  width: 350px;
+  height: 333px;
+  aspect-ratio: 0.94;
+  object-fit: cover;
+}
+
+.android-medium .ellipse {
+  position: absolute;
+  top: 119px;
+  left: 15px;
+  width: 503px;
+  height: 199px;
+  background-color: #ffffff;
+  border-radius: 251.5px / 99.5px;
+  border: 8px solid;
+  border-color: #ffa95a;
+  box-shadow: 4px 8px 0px #493587;
+}
+
+.android-medium .picture {
+  position: absolute;
+  top: 10px;
+  left: 7px;
+  width: 519px;
+  height: 78px;
+  aspect-ratio: 6.65;
+  object-fit: cover;
+}
+
+.android-medium .text-wrapper {
+  position: absolute;
+  top: 167px;
+  left: calc(50.00% - 226px);
+  width: 452px;
+  font-family: "Fascinate-Regular", Helvetica;
+  font-weight: 400;
+  color: #51076c;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.android-medium .rectangle {
+  position: absolute;
+  top: 874px;
   left: 0;
   width: 540px;
-  height: 874px;
+  height: 43px;
+  background-color: #07063d;
+  box-shadow: 0px -6px 4px #61567bbf;
+}
+
+.android-medium .rectangle-2 {
+  position: absolute;
+  top: 402px;
+  left: 150px;
+  width: 251px;
+  height: 66px;
+}
+
+.android-medium .rectangle-3 {
+  position: absolute;
+  top: 498px;
+  left: 151px;
+  width: 248px;
+  height: 63px;
+}
+
+.android-medium .div {
+  position: absolute;
+  top: 408px;
+  left: 212px;
+  font-family: "DynaPuff-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.android-medium .text-wrapper-2 {
+  position: absolute;
+  top: 502px;
+  left: 181px;
+  font-family: "DynaPuff-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.android-medium .text-wrapper-3 {
+  position: absolute;
+  top: 881px;
+  left: 121px;
+  font-family: "DynaPuff-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.android-medium .line {
+  position: absolute;
+  top: 88px;
+  left: 29px;
+  width: 481px;
+  height: 11px;
+}
+
+.android-medium .star {
+  position: absolute;
+  top: 358px;
+  left: 110px;
+  width: 85px;
+  height: 89px;
+}
+
+.android-medium .star-2 {
+  position: absolute;
+  top: 83px;
+  left: 260px;
+  width: 19px;
+  height: 21px;
 }
 
 ```
